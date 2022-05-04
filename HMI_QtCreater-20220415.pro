@@ -20,7 +20,7 @@ FORMS += \
     mainwindow.ui
 
 TRANSLATIONS += \
-    untitled-20220415_zh_CN.ts
+    HMI_QtCreater-20220415_zh_CN.ts
 CONFIG += lrelease
 CONFIG += embed_translations
 
