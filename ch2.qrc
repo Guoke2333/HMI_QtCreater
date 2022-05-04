@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>OCR.png</file>
+        <file>1.jpg</file>
+        <file>2.jpg</file>
+    </qresource>
+</RCC>
