@@ -18,6 +18,14 @@ int main(int argc, char *argv[])
         }
     }
     MainWindow w;
+    QToolBar *mytoolbar;
+    mytoolbar = new QToolBar;
+    QAction *CloseAc;
+    CloseAc = new QAction;
+    mytoolbar->setWindowFlags(Qt::FramelessWindowHint);
+    mytoolbar->addAction(CloseAc);
+    mytoolbar->show();
     w.show();
+    QObject::connect(CloseAc,SIGNAL(clicked()),mytoolbar,SLOT(closed()));
     return a.exec();
 }

@@ -40,8 +40,8 @@
    <widget class="QLCDNumber" name="Sys_Time">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>10</y>
+      <x>570</x>
+      <y>30</y>
       <width>64</width>
       <height>23</height>
      </rect>
