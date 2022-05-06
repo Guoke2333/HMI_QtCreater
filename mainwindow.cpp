@@ -73,5 +73,12 @@ void MainWindow::timerEvent(QTimerEvent *event)
     QTime C_time = QTime::currentTime();
 
     //ui->Sys_Time->setDigitCount(15)
+    //ui->Sys_Time->setFrameStyle(QFrame::Shape(QFrame::Box));
+    ui->Sys_Time->setFrameStyle(QFrame::Box);
+   // ui->Sys_Time->setFrameStyle(QFrame::Panel);
+    ui->Sys_Time->setFrameStyle(QFrame::Shape_Mask);
+
+    ui->Sys_Time->setPalette(QPalette(QPalette::Active));
     ui->Sys_Time->display(C_time.toString("HH:mm:ss . zzz"));
+
 }
