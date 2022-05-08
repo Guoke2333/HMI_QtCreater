@@ -2,10 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QPushButton>
-#include <QMessageBox>
-#include <QTime>
-#include <QToolBar>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,18 +17,9 @@ public:
     ~MainWindow();
 
 private slots:
-   // void Bt_1_Clicked();
-//    void on_action_E_triggered();
-//    void on_action_S_triggered();
-//    void on_action_O_triggered();
-    void about();
-    void timerEvent(QTimerEvent *event);
-    void on_Bt_1_clicked();
 
 private:
    Ui::MainWindow *ui;
-//   QMenu *aboutMenu;
-//   QAction *aboutAct;
-   //QToolBar *FileToolbar;
+
 };
 #endif // MAINWINDOW_H
