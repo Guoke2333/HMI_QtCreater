@@ -9,13 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-//  aboutAct =new QAction(QIcon(":/1.jpg"), tr("&A关于"),this);
-   //QAction aboutAct  (QIcon(":/1.jpg"), tr("&A关于"),this);
-//    QObject::connect(aboutAct, SIGNAL(triggered()),   this,   SLOT(about()));
-//    aboutMenu=menuBar()->addMenu(tr("&关于"));
-//     aboutMenu->addAction(aboutAct);
-//    aboutMenu=menuBar()->addMenu(tr("&关"));
-//    aboutMenu->addAction(aboutAct);
+
     ui->Sys_Time->setDigitCount(15);
     this->startTimer(1000);
 
